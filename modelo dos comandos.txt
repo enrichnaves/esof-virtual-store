@@ -1,0 +1,51 @@
+/*Tabela compra*/
+
+INSERT INTO public.compra(
+	id_compra, id_produtos, data_compra, valor, num_cartao, cvv, val_cartao, cpf)
+	VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+DELETE FROM public.compra
+	WHERE <condition>;
+
+SELECT id_compra, id_produtos, data_compra, valor, num_cartao, cvv, val_cartao, id, cpf
+	FROM public.compra;
+
+UPDATE public.compra
+	SET id_compra=?, id_produtos=?, data_compra=?, valor=?, num_cartao=?, cvv=?, val_cartao=?, id=?, cpf=?
+	WHERE <condition>;
+
+/*__________________________________________________*/
+/*Tabela produto*/
+
+INSERT INTO public.produto(
+	id, nome, preco, estoque)
+	VALUES (?, ?, ?, ?);
+
+DELETE FROM public.produto
+	WHERE <condition>;
+
+SELECT id, nome, preco, estoque
+	FROM public.produto;
+
+UPDATE public.produto
+	SET id=?, nome=?, preco=?, estoque=?
+	WHERE <condition>;
+
+/*__________________________________________________*/
+/*Tabela usuarios*/
+
+INSERT INTO public.usuarios(
+	cpf, endereco, senha, telefone, nome)
+	VALUES (?, ?, ?, ?, ?);
+
+DELETE FROM public.usuarios
+	WHERE <condition>;
+
+SELECT cpf, endereco, senha, telefone, nome
+	FROM public.usuarios;
+
+UPDATE public.usuarios
+	SET cpf=?, endereco=?, senha=?, telefone=?, nome=?
+	WHERE <condition>;
+
+/*__________________________________________________*/
