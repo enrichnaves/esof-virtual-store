@@ -123,9 +123,9 @@
                 <p>virtualstore@virtualstore.com.br</p>
                 <p>0800-080-0800</p>
                 <p><h2>@Virtual_Store</h2></p>
-                <a href="editar_produtos.php">Area administrativa</a>
-                <a href="sobre.php">Sobre a empresa</a>
-                <a href="ajuda.php">Precisa de ajuda? Clique aqui</a>
+                <a href="editar_produtos.php">Area administrativa</a><br>
+                <a href="sobre.php">Sobre a empresa</a><br>
+                <a href="ajuda.php">Precisa de ajuda? Clique aqui</a><br>
             </div>
         </section>
         ';
