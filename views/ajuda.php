@@ -15,7 +15,9 @@
 <body >
 
     <a class="btn btn-primary barra" style="background: none;" href="#">Envie sua duvida!</a>
-
+    <?php
+        include_once "./navbar.php";
+    ?>
     <div class="container">
         <div class="nomeLoja" >
                 <img src="">
