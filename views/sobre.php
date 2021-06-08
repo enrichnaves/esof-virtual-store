@@ -13,7 +13,9 @@
 </head>
 
 <body >
-
+    <?php
+        include_once "./navbar.php";
+    ?>
     <a class="btn btn-primary barra" style="background: none;" href="#">Sobre a empresa:</a>
     <h1>Missão</h1>
     <p style="color: white;">Nossa missão é educar a sociedade com cursos acessiveis tanto no quesito financeiro quanto na didática</p>
