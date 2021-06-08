@@ -124,6 +124,8 @@
                 <p>0800-080-0800</p>
                 <p><h2>@Virtual_Store</h2></p>
                 <a href="editar_produtos.php">Area administrativa</a>
+                <a href="sobre.php">Sobre a empresa</a>
+                <a href="ajuda.php">Precisa de ajuda? Clique aqui</a>
             </div>
         </section>
         ';
